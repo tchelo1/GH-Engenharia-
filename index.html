@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GH Engenharia e Projetos </title>
+  <meta name="description" content="GH Engenharia e Projetos oferece soluções em projetos elétricos, energia renovável, consultoria técnica e iluminação pública. Qualidade, segurança e eficiência para sua obra." />
+  <meta name="keywords" content="engenharia elétrica, projetos, energia solar, iluminação pública, consultoria técnica, Brasil, engenharia" />
+  <meta name="author" content="GH Engenharia e Projetos" />
+  <link rel="icon" type="image/jpg" href="img/icon.jpg">
+  <link rel="stylesheet" href="style.css" />
+  <!-- Link para o Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="img/logo.jpg" alt="GH Engenharia e Projetos" class="logo-img">
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Abrir menu">☰</button>
+      <nav class="nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal com fundo slideshow -->
+  <main class="main-content">
+    <div class="bg-slideshow" aria-hidden="true">
+      <div class="bg-slide active" style="background-image: url('img/fundo.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('img/fundo1.jpg');"></div>
+      <div class="bg-slide" style="background-image: url('img/fundo2.jpg');"></div>
+    </div>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2>Sobre a GH Engenharia e Projetos</h2>
+        <p>Somos especializados em projetos, atuando nos segmentos residencial, comercial e industrial, com experiência em projetos para o setor público e privado, oferecendo soluções com foco em qualidade, segurança e eficiência.</p>
+      </div>
+    </section>
+
+    <section id="servicos" class="section">
+      <div class="container">
+        <h2>Serviços Oferecidos</h2>
+        <div class="grid">
+          <!-- Projetos -->
+          <article class="card card-bg" style="background-image: url('img/projeto.jpg');" role="article" aria-label="Projetos">
+            <div class="card-overlay">
+              <h3>Projetos</h3>
+              <ul>
+                <li>Projetos elétricos de baixa e média tensão</li>
+                <li>Projetos civis e estruturais</li>
+                <li>Projetos arquitetônicos</li>
+              </ul>
+            </div>
+          </article>
+          <!-- Energia Renovável e Iluminação Pública -->
+          <article class="card card-bg" style="background-image: url('img/reno.jpg');" role="article" aria-label="Energia Renovável e Iluminação Pública">
+            <div class="card-overlay">
+              <h3>Energia Renovável e Iluminação Pública</h3>
+              <ul>
+                <li>Projetos de energia solar</li>
+                <li>Soluções em eficiência energética</li>
+                <li>Projetos de iluminação pública</li>
+              </ul>
+            </div>
+          </article>
+          <!-- Consultoria Técnica -->
+          <article class="card card-bg" style="background-image: url('img/consultoria.jpg');" role="article" aria-label="Consultoria Técnica">
+            <div class="card-overlay">
+              <h3>Consultoria Técnica</h3>
+              <ul>
+                <li>Laudo e pareceres técnicos</li>
+                <li>Inspeções e vistoria de instalações</li>
+                <li>Elaboração de orçamentos e cronogramas de obras</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <ul class="contato-list">
+          <li><i class="fa fa-whatsapp" style="color:#25D366;"></i> <a href="https://wa.me/553171001821" target="_blank" rel="noopener noreferrer">WhatsApp: +55 31 97100-1821</a></li>
+          <li><i class="fa fa-whatsapp" style="color:#25D366;"></i> <a href="https://wa.me/5592999880117" target="_blank" rel="noopener noreferrer">WhatsApp: +55 92 99988-0117</a></li>
+          <li><i class="fa fa-envelope" style="color:#333;"></i> <a href="mailto:gh.engenhariaprojetos@gmail.com" target="_blank" rel="noopener noreferrer">E-mail: gh.engenhariaprojetos@gmail.com</a></li>
+          <li><i class="fa fa-instagram" style="color:#E1306C;"></i> <a href="https://www.instagram.com/gheng.proj/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        </ul>
+        <div class="empresa-info">
+          <p>SEDE: BELO HORIZONTE-MG / FILIAL: PRIMAVERA DO LESTE-MT</p>
+          <p>CNPJ: 59.319.899/0001-52</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> GH Engenharia e Projetos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
